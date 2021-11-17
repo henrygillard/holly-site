@@ -3,3 +3,7 @@
     justify-content: space-evenly;
 
 }
+
+#info-module {
+    grid-area: info-module;
+}

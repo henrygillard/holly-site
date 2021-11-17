@@ -1,0 +1,8 @@
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav {
+    grid-area: nav;
+}

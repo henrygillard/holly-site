@@ -1,6 +1,10 @@
+import InfoModule from "../Components/InfoModule/InfoModule";
+
 export default function Education() {
     return(
-        <div className="info-details">
+        <>
+        <InfoModule />
+        <div id="info-details">
             <p>
                 Holly earned a Baccalaureate of Arts in psychology 
                 from the California State University, Chico, and 
@@ -13,5 +17,6 @@ export default function Education() {
                 Technology Transfer Center Leadership Institute.
             </p>
         </div>
+        </>
     )
 }

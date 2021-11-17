@@ -2,6 +2,7 @@ import './Footer.css'
 
 export default function Footer() {
     return(
-        <h1>Footer</h1>
-    )
+        <footer id='footer'>
+            <h1>Footer</h1>
+        </footer>   )
 }
