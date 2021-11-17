@@ -5,7 +5,7 @@ export default function Experience() {
         <>
             <InfoModule />
             <div id="info-details">
-                <p>
+                <p className="description">
                     A skilled collaborator and program manager,
                     she worked with government agencies, state 
                     departments, and other partners to build 

@@ -1,9 +1,39 @@
 .info-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
 
+.info-nav h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-nav a {
+    display: flex;
+    justify-content: center;
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+}
+
+.selected {
+    background-color: lightgray;
+}
+
+.info-nav a:hover {
+    background-color: lightgray;
+}
+.info-nav a:active {
+    background-color: lightgray;
 }
 
 #info-module {
+    display: flex;
     grid-area: info-module;
+    justify-content: space-evenly;
+    background-color: #e8f9ff;
 }

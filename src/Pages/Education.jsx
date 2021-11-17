@@ -5,7 +5,7 @@ export default function Education() {
         <>
         <InfoModule />
         <div id="info-details">
-            <p>
+            <p className="description">
                 Holly earned a Baccalaureate of Arts in psychology 
                 from the California State University, Chico, and 
                 a Master of Arts from Loyola Marymount University. 

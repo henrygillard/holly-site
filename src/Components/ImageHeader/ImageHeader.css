@@ -1,0 +1,11 @@
+#image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: image-header;
+}
+
+img {
+    width: 15rem;
+    border-radius: 10rem;
+}

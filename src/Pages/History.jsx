@@ -5,7 +5,7 @@ export default function History() {
         <>
             <InfoModule />
             <div id="info-details">
-                <p>
+                <p className="description">
                     Before joining HMA, Holly served as the director of 
                     addiction medicine with the Los Angeles County
                     Department of Health Services (DHS), Correctional 

@@ -1,12 +1,32 @@
 main {
     text-align: center;
     display: grid;
-    /* grid-template-columns: 20rem 1fr; */
-    /* grid-template-rows: 15rem 1fr; */
+    height: 100vh;
+    /* grid-template-columns: 10rem 1fr; */
+    grid-template-rows: 5rem 17rem 5rem 1fr 5rem;
     grid-template-areas: 
-    "nav"
-    'info-module'
+    "nav "
+    "image-header "
+    'info-module '
     'info-details'
     'footer';
-    border: solid;
+}
+
+#info-details {
+    /* border: solid; */
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    background-color: rgba(211, 211, 211, 0.303);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80%; */
+    margin: 1rem;
+    padding: 1rem;
+    border: solid thin;
 }

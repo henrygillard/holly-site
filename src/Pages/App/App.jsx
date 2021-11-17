@@ -10,16 +10,17 @@ import Education from '../Education';
 import Experience from '../Experience';
 import Home from '../Home/Home';
 import Contact from '../../Components/Contact/Contact';
+import ImageHeader from '../../Components/ImageHeader/ImageHeader';
 
 function App() {
   return (
     <Layout>
       <NavBar />
-      {/* <InfoModule /> */}
+      <ImageHeader />
       <Routes>
-        <Route path='/about' element={<InfoModule />} />
-        <Route path='/contact' element={<Contact />} />
         <Route path="/" element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/about' element={<InfoModule />} />
         <Route path="/about/history" element={<History />} />
         <Route path="/about/experience" element={<Experience />} />
         <Route path="/about/education" element={<Education />} />
