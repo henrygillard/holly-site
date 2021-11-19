@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&display=swap'); */
+
+
 .nav-links {
     display: flex;
     justify-content: space-evenly;
@@ -8,6 +11,8 @@
 
 
 .cursive-text {
+    display:flex;
+    justify-content: center;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     margin: 0;
@@ -15,9 +20,12 @@
 }
 
 #nav {
-    /* font-family: 'Dancing Script', cursive; */
     background-color: #E8F9FF;
     grid-area: nav;
     display: flex;
     flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    border: solid white thin;
 }
+

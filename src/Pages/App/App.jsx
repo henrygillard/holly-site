@@ -14,24 +14,26 @@ import ImageHeader from '../../Components/ImageHeader/ImageHeader';
 
 function App() {
   return (
-    <Layout>
-      <NavBar />
-      <ImageHeader />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/about' element={
-          <>
-          <InfoModule /> 
-          <History />
-          </>}
-           />
-        <Route path="/about/history" element={<History />} />
-        <Route path="/about/experience" element={<Experience />} />
-        <Route path="/about/education" element={<Education />} />
-      </Routes>
-      <Footer />
-    </Layout>
+    <>
+    <NavBar />
+      <Layout>
+        <ImageHeader />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/about' element={
+            <>
+            <InfoModule /> 
+            <History />
+            </>}
+            />
+          <Route path="/about/history" element={<History />} />
+          <Route path="/about/experience" element={<Experience />} />
+          <Route path="/about/education" element={<Education />} />
+        </Routes>
+      </Layout>
+    <Footer />
+    </>
   );
 }
 

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: auto 10rem;
     padding: 1rem;
     border: solid thin;
 }
@@ -11,4 +11,12 @@
 h3 {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .main-text-container {
+        margin: auto 2rem;
+    }
+
+    
 }
