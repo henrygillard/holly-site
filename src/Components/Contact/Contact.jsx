@@ -4,7 +4,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 export default function Contact() {
     return(
-        <section>
+        <section className="contact">
             <h1>Contact</h1>
             <div className="icons">
                 <EmailIcon /><a href="mailto:hmccravey@healthmanagement.com">hmccravey@healthmanagement.com</a>
