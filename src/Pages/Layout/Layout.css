@@ -45,3 +45,10 @@ main {
     border: solid thin;
     max-width: 25rem;
 }
+
+@media screen and ( max-width:600px) {
+    main {
+        height: 100vh;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
